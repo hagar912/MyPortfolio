@@ -26,7 +26,6 @@ namespace Web.Controllers
                 PortfolioItems = _portfolio.Entity.GetAll().ToList()
             };
             return View(homeviewModel);
-        }
-        
+        } 
     }
 }
